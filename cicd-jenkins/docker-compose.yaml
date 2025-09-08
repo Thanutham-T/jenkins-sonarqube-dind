@@ -48,7 +48,7 @@ services:
 
   # 🔧 Jenkins SSH Agent
   jenkins-agent:
-    image: jenkins/ssh-agent:custom-deb-jdk21
+    image: jenkins/ssh-agent:custom-deb-jdk21-python
     privileged: true
     user: root
     container_name: jenkins-agent
