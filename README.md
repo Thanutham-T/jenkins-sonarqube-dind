@@ -11,7 +11,6 @@ It includes a custom Jenkins controller and agent setup for building, testing, a
 - [Prerequisites](#prerequisites)  
 - [Setup](#setup)  
 - [Usage](#usage)  
-- [Troubleshooting](#troubleshooting)  
 - [Notes](#notes)  
 
 ---
@@ -81,6 +80,8 @@ chmod 666 /var/run/docker.sock
 
 * Access Jenkins: `http://localhost:8080`
 * Access Sonarqube: `http://localhost:9001`
+
+---
 
 ## Notes
 
